@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;900&display=swap');
+
+.main-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.logo-wrapper .logo {
+  width: 100px;
+  margin: 50px auto;
+}
+ 
+.mail-title {
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 0 30px;
+}
+.mail-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 0 30px;
+}
+.picture {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.mail-body {
+  font-weight: 300; 
+  padding: 30px;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+
+.mail-body .features {
+  display: flex;
+}
+.mail-body .features ul{
+  flex: 1 1 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mail-body .features ul li {
+  margin-bottom: 10px;
+}
+
+.mail-body .mail-paragraph {
+  margin-bottom: 30px;
+}
+
+.mail-body .mail-cta {
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #6C2498;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.mail-footer {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 30px 30px;
+}
+
+
+.mail-footer .link-unsuscribe {
+  font-weight: 600;
+  text-decoration: none;
+  color: #6C2498;
+}
